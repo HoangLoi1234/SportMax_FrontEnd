@@ -1,0 +1,225 @@
+.productdisplay {
+  margin-bottom: 80px;
+}
+/* .productdisplay-left {
+  
+} */
+.productdisplay-img-list img{
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 16px; */
+  width: 90%;
+  margin-bottom: 4px;
+}
+
+/* .productdisplay-img {
+
+} */
+.productdisplay-main-img {
+  width: 100%;
+}
+.productdisplay-right {
+  margin-bottom: 60px;
+}
+.productdisplay-right button {
+  padding: 20px 40px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background: #FF4141;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 40px;
+  font-weight: 700px;
+}
+.productdisplay-right-stars {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 16px;
+
+}
+.productdisplay-right-prices {
+  display: flex;
+  margin: 40px 0px;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productdisplay-right-prices-old {
+  color: #818181;
+  text-decoration: line-through;
+}
+.productdisplay-right-prices-new {
+  color: #ff4141;
+}
+.productdisplay-right-description {
+  margin-bottom: 20px;
+}
+.productdisplay-right-size-color {
+  margin: 30px 0px;
+  gap: 30px;
+  align-items: center;
+}
+.productdisplay-right-size h1{
+  margin: 20px 0 16px;
+  color: #656565;
+  font-size: 20px;
+  font-weight: 600;
+}
+.productdisplay-right-size-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.productdisplay-right-size-item div {
+  padding: 12px 20px;
+  background-color: #EFEFEF;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* .productdisplay-right-category {
+  font-weight: 600;
+}  */
+.shopcategory-loadmore__para {
+  margin-right: 10px;
+}
+
+@media (max-width: 1280px) {
+  .productdisplay-right h1 {
+    font-size: 30px;
+  }
+}
+
+.productdisplay-right-color-item select,
+.productdisplay-right-size-item select {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  /* margin-top: 10px; */
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productdisplay-right-color-item select {
+  width: 40%;
+}
+
+.productdisplay-right-size-item select:focus {
+  border-color: #007bff; /* Change to your primary color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Slight blue glow */
+}
+
+.productdisplay-right-size-item select option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* .productdisplay-right-size-item {
+  margin-top: 15px;
+} */
+
+.productdisplay-right-size h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* .productdisplay-right-size-wrap,
+.productdisplay-right-color-wrap {
+  display: flex;
+  text-align: center;
+  
+} */
+
+.productdisplay-right-size-wrap,
+.productdisplay-right-color-wrap {
+  display: flex;
+  align-items: center; /* Vertically centers the items */
+  justify-content: flex-start; /* Aligns items from the start (left) */
+  margin-bottom: 20px; /* Adds some space below the block */
+}
+
+.productdisplay-right-color-wrap h1,
+.productdisplay-right-size-wrap h1 {
+  font-size: 16px; /* Adjust font size to match the design */
+  font-weight: 600; /* Make the heading slightly bold */
+  margin-top: 0; /* Remove default margins */
+  margin-right: 20px; /* Add space between heading and select box */
+}
+
+.productdisplay-right-color-item,
+.productdisplay-right-size-item {
+  flex-grow: 1; /* Makes the select box take the remaining horizontal space */
+  max-width: 200px; /* Controls the maximum width of the select box */
+}
+
+productdisplay-right-size-item {
+  width: 100%; /* Ensures the select element takes full width of its container */
+  max-width: 300px; /* Limits the maximum width of the select box */
+  margin-top: 10px; /* Adds space above the select box */
+}
+
+
+
+
+@media (max-width: 1023px) {
+  .productdisplay-right h1 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .productdisplay {
+    margin-bottom: 80px;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }  
+}
+
+@media (max-width: 740px) {
+  .mobile-display {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .col-mobile {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .c-3-mobile {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .productdisplay-img-list {
+    margin: 6px auto;
+  }
+  .productdisplay-right-size button {
+    margin-bottom: 10px;
+  }
+  
+  .productdisplay-right h1 {
+    margin-top: 18px;
+    font-size: 30px;
+  }
+
+  .productdisplay-right-size-wrap h1,
+  .productdisplay-right-color-wrap h1 {
+    font-size: 18px;
+  }
+}
+

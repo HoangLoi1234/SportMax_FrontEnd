@@ -1,0 +1,104 @@
+
+.newtech {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.newtech-wrap {
+  width: 100%;
+}
+
+.newtech-header {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.newtech-item img {
+  display: block;
+  max-width: 86%;
+  margin: 0 auto;
+}
+
+.newtech-item img:hover {
+  transform: scale(1.05);
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.newtech .ListTypeProducts-header__title {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.newtech hr {
+  width: 210px;
+  height: 3px;
+  border-radius: 10px;
+  background: #252525;
+  margin: 10px auto 40px;
+}
+
+.ListTypeProducts-col {
+  margin-bottom: 20px;
+}
+
+.slick-dots {
+  margin-top: 20px;
+  text-align: center; 
+  bottom: -35px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px; 
+  color: #000; 
+  opacity: 0.75; 
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 14px; 
+  color: #007bff; 
+  opacity: 1; 
+}
+
+@media (max-width: 1023px) {
+  .newtech .newtech-header {
+    font-size: 36px;
+  }
+  .newtech hr {
+    width: 160px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 740px) {
+  .newtech .newtech-header {
+    font-size: 24px;
+  }
+  .newtech hr {
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  .slick-dots li button:before {
+    bottom: 0px;
+  }
+  .slick-dots {
+    bottom: -35px;
+  }
+}
+
+/* .slick-prev:before {
+  
+}
+
+.slick-next:before {
+  
+}  */

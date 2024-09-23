@@ -1,0 +1,136 @@
+.shop-listtype {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
+}
+.shop-listtype__banner {
+  margin-top: 150px;
+  padding: 0;
+  width: 100%;
+}
+.listtypeproduct-indexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+.listtypeproduct-sort {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+}
+.listtypeproduct-sort select {
+  margin-left: 5px;
+  height: 40px;
+  padding: 0 5px;
+  padding-right: 20px;
+}
+.listtypeproduct-search {
+  position: relative;
+  width: 100%; 
+  max-width: 400px; 
+  margin-left: 0; 
+}
+.listtypeproduct-search input[type="text"] {
+  width: 100%; 
+  padding: 10px 40px 10px 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 25px; 
+  font-size: 16px; 
+  outline: none; 
+  transition: border-color 0.3s ease; 
+}
+.listtypeproduct-search input[type="text"]:focus {
+  border-color: #FF4141; 
+}
+.listtypeproduct-search i.fa-search {
+  position: absolute;
+  top: 50%; 
+  right: 15px;
+  transform: translateY(-50%);
+  color: #999; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+.listtypeproduct-search i.fa-search:hover {
+  color: #333;
+}
+
+.listtypeproduct-sort p{
+  font-weight: 600;
+}
+.listtypeproduct-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto 100px;
+  width: 233px;
+  height: 69px;
+  border-radius: 75px;
+  background-color: #ededed;
+  color: #787878;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* fixing */
+@media (max-width: 800px) {
+  .listtypeproduct-search {
+    max-width: 300px;  
+  }
+}
+
+
+@media (max-width: 740px) {
+  .listtypeproduct-indexSort {
+    padding: 10px 20px;
+  }
+  .listtypeproduct-sort {
+    padding: 6px 10px;
+    border-radius: 40px;
+  }
+  .shop-listtype__banner {
+    margin-top: 90px;
+    padding: 0;
+    width: 100%;
+  }
+}
+/* fixing */
+@media (max-width: 570px) {
+  .listtypeproduct-search {
+    max-width: 200px;  
+  }
+}
+/* fixing */
+@media (max-width: 480px) {
+  .listtypeproduct-indexSort {
+    display: flex;
+    flex-direction: column;
+  }
+  .listtypeproduct-search {
+    max-width: 300px;  
+    margin-bottom: 12px;
+  }
+  .listtypeproduct-sort select {
+    height: 30px;
+  }
+}
+
+@media (max-width: 390px) {
+  .listtypeproduct-indexSort {
+    padding: 8px 12px;
+  }
+  .listtypeproduct-sort {
+    padding: 6px 8px;
+    border-radius: 40px;
+  }
+  .shop-listtype__banner {
+    margin-top: 80px;
+    padding: 0;
+    width: 100%;
+  }
+}
